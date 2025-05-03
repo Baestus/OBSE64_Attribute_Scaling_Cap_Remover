@@ -19,17 +19,17 @@ This replaces the CMOVG instruction with a NOP instruction, removing the check a
 * C++23 Compiler (MSVC, Clang-CL)
 
 ```
-git clone --recurse-submodules https://github.com/Baestus/OBSE64_Strength_Scaling_Cap_Remover.git
+git clone --recurse-submodules https://github.com/Baestus/OBSE64_Attribute_Scaling_Cap_Remover.git
 ``` 
 ``` 
-cd OBSE64_Strength_Scaling_Cap_Remover
+cd OBSE64_Attribute_Scaling_Cap_Remover
 ```
 ``` 
 xmake build
 ```
 
 ## Install
-Place the StrengthScalingCapRemover.dll in
+Place the OBSE64_Attribute_Scaling_Cap_Remove.dll in
 ``` 
 OblivionRemastered\Binaries\Win64\obse\plugins
 ```

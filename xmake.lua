@@ -5,7 +5,7 @@ set_xmakever("2.9.4") -- Or your installed version if >= 2.8.2
 includes("lib/commonlibob64")
 
 -- set project details
-set_project("StrengthScalingCapRemover") 
+set_project("AttributeScalingCapRemover") 
 set_version("1.0.0")             
 set_license("GNU")               -- Choose your license
 
@@ -24,7 +24,7 @@ add_rules("mode.debug", "mode.releasedbg")
 add_rules("plugin.vsxmake.autoupdate") -- For VS project generation if used
 
 -- setup the target DLL
-target("StrengthScalingCapRemover") -- Use the same name as set_project
+target("AttributeScalingCapRemover") -- Use the same name as set_project
     -- link against commonlibob64
     add_deps("commonlibob64")
 
@@ -32,7 +32,7 @@ target("StrengthScalingCapRemover") -- Use the same name as set_project
     -- This automatically sets defines, includes, links, entry points etc.
     add_rules("commonlibob64.plugin", {
         -- Provide necessary info for the rule
-        name = "StrengthScalingCapRemover", -- Match target/project name
+        name = "AttributeScalingCapRemover", -- Match target/project name
         author = "jab",
         version = "1.0",            
     })
