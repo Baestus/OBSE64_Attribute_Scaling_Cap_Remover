@@ -29,7 +29,7 @@ xmake build
 ```
 
 ## Install
-Place the OBSE64_Attribute_Scaling_Cap_Remove.dll in
+Place the OBSE64_Attribute_Scaling_Cap_Remover.dll in
 ``` 
 OblivionRemastered\Binaries\Win64\obse\plugins
 ```
