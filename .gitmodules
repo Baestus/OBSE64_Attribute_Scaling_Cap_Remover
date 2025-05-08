@@ -1,3 +1,9 @@
 [submodule "lib/commonlibob64"]
 	path = lib/commonlibob64
 	url = https://github.com/libxse/commonlibob64.git
+[submodule "lib/obse64"]
+	path = lib/obse64
+	url = https://github.com/ianpatt/obse64.git
+[submodule "lib/minhook"]
+	path = lib/minhook
+	url = https://github.com/TsudaKageyu/minhook.git
